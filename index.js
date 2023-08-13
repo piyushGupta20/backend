@@ -18,6 +18,6 @@ app.get("/", (req, res) => {
   res.send("Hello server is running");
 });
 
-app.listen(PORT, () => {
+app.listen(5001, () => {
   console.log(`listening on PORT ${PORT}`);
 });
