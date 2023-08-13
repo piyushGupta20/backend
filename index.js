@@ -15,7 +15,7 @@ app.use("/", Routes);
 connection();
 
 app.get("/", (req, res) => {
-  res.send("Hello server is running");
+  res.send("Hello server");
 });
 
 app.listen(5001, () => {
