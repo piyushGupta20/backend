@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const autoIncrement = require('mongoose-auto-increment')
+// const autoIncrement = require('mongoose-auto-increment')
 const userSchema = mongoose.Schema({
     username:String,
     phone:String,
